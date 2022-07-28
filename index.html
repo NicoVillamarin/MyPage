@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Nicolás Villamarin || Developer web Full-Stack</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Mi estilo css-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--Estilo css Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <!--Aca abajo esta Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Termina google font-->
+    <script type="text/javascript" src="js/unidad7.js"></script>
+</head>
+
+<body>
+    <header id="cabezera">
+        <img src="img/img-Uno.jpg" alt="" class="fondo">
+        <div id="logo">
+            <img class="logotipo" src="img/logo.png" alt="">
+        </div>
+
+        <!--Comienza en Nav con bootstrap-->
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler hamb-boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="navbar-toggler-icon"></div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#bloqueUno">¿Quien soy?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#bloqueDos">Herramientas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contacto">Contactame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="tit-principal">
+            <span>Hola! Soy Nicolás. Soy Full-Stack developer!</span>
+            <br>
+            <span class="seg-tit">¡Bienvenido a mi blog!</span>
+        </div>
+    </header>
+
+    <!--Comienza la seccion de las presentacion-->
+    <section id="bloqueUno">
+        <div id="yo">
+            <h2>¿Quien soy?</h2>
+            <script type="text/javascript">
+                document.write('<h3 class="subtit">Hola ' + nombre + ' ' + apellido + ' me comentaste que tenes ' + edad + ' de edad y vivis en ' + ciudad + ' de tu hermoso país llamadoddd ' + pais + ' !!! </h3>');
+            </script>
+            <br>
+            <p>Me presento, mi nombre es <strong>Nicolás Villamarin</strong>, tengo 29 años y soy de Mar del plata, Buenos Aires, Argentina. Me considero una persona activa y con muy buena actitud.</p>
+            <p>Me gustan muchos los desafios y las cosas que son imposibles, te preguntaras ¿Porqué?, bien, porque los retos y las dificultades es lo que me hace tener mas aprendizajes (tambien me divierte mucho).</p>
+            <p>Soy un developer Full-Stack web, hace 3 años aprendí sobre este hermoso mundo con Front-end y ahora decidí hacer un logro más e realizar la carrera Full-Stack.</p>
+            <p>Si sos una Empresa o cliente, dejame mostrarte todos mis conocimientos, con mucho trabajo pero siempre buscando la mejor onda!</p>
+        </div>
+        <div id="fotos-nosotros"></div>
+    </section>
+    <!--Termina la seccion de las presentacion-->
+
+    <!--Comienza la seccion de las herramientas-->
+    <section id="bloqueDos">
+        <div class="bloque-producto">
+            <div class="Subt-bloqueDos">
+                <h2>Mis herramientas</h2>
+                <p>Para saber sobre ellas hace click sobre la imagen ninja</p>
+            </div>
+            <div id="producto">
+                <a href="#producto"> <img id="img-BloqueDos" onclick="efecto()" src="img/ninja.jpg" alt="Programacion"></a>
+                <div id="descript">
+
+                    <!--Comienza el carousel-->
+
+                    <div id="carouselExampleCaptions" class="carousel slide item-carrus zoom-item" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/html5.jpg" class="d-block w-100 ancho-img" alt="...">
+                                    <div class="carousel-caption d-md-block text-img">
+                                        <h5><strong>HTML5</strong></h5>
+                                        <p>Tengo conocimientos solidos sobre este lenguaje de Front-end.</p>
+                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/css3.jpg" class="d-block w-100 ancho-img" alt="...">
+                                    <div class="carousel-caption d-md-block text-img">
+                                        <h5><strong>CSS3</strong></h5>
+                                        <p>Tengo conocimientos solidos sobre este lenguaje de Front-end.</p>
+                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/js.jpg" class="d-block w-100 ancho-img" alt="...">
+                                    <div class="carousel-caption d-md-block text-img">
+                                        <h5><strong>Javascript</strong></h5>
+                                        <p>Tengo conocimientos solidos sobre este lenguaje de Front-end.</p>
+                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/git.jpg" class="d-block w-100 ancho-img" alt="...">
+                                    <div class="carousel-caption d-md-block text-img">
+                                        <h5><strong>Git</strong></h5>
+                                        <p>Tengo conocimientos solidos sobre este lenguaje de nube.</p>
+                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/vue.jpg" class="d-block w-100 ancho-img" alt="...">
+                                    <div class="carousel-caption d-md-block text-img">
+                                        <h5><strong>Vue</strong></h5>
+                                        <p>Tengo conocimientos basicos sobre la gran libreria de JS.</p>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!--Termina carousel-->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Termina la seccion de las herramientas-->
+        <!--Comienza la seccion de las cards-->
+        <section id="proyectos">
+            <div class="container-fluid bloque-proyectos">
+                <h2>Proyectos realizados:</h2>
+                    <div class="row row-cols-2  justify-content-center">
+                        <div class="col m-3 card" style="width: 18rem;">
+                            <img src="./img/logoPedidoya.png" class="card-img-top mt-2 logoCards" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pedido Ya! <br>Front-end Developer</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ir a la web</a>
+                            </div>
+                        </div>
+                        <div class="col m-3 card" style="width: 18rem;">
+                            <img src="./img/logoMercado.png" class="card-img-top mt-2" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mercado Libre <br>Front-end Developer</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ir a la web</a>
+                            </div>
+                        </div>
+                        <div class="col m-3 card" style="width: 18rem;">
+                            <img src="./img/Microsoft.jpg" class="card-img-top mt-2" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Microsoft <br> Back-end Developer</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ir a la web</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--Termina la seccion de las herramientas-->
+
+    <!--Comienza el formulario con BOOTSTRAP-->
+    <section id="contacto">
+        <div class="container-fluid text-center p-3 block-contact">
+            <div class="row justify-content-md-center">
+                <h3 class="my-5">Cualquier duda Contactame</h3>
+                <div class="col-md-5">
+                    <form>
+                        <label for="#"  class="form-label">Nombre</label>
+                        <input type="text" class="form-control mb-3 "placeholder="Ingrese su nombre">
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <label for="#"  class="form-label">Apellido</label>
+                        <input type="text" class="form-control mb-3" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-5">
+                    <form class="needs-validation">
+                        <label for="#"  class="form-label">Email</label>
+                        <input type="email" class="form-control mb-3" placeholder="Ingrese su mail">
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <label for="#"  class="form-label">Edad</label>
+                        <input type="number" class="form-control mb-3" placeholder="Ingrese su edad">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Agregar alguna consulta" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Agregar alguna consulta</label>
+                    </div>
+                </div>
+            </div>
+            <form>
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <button type="submit" class="btn btn-primary mt-5">Sign in</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+    <!--Termina el formulario con BOOTSTRAP-->
+
+    <!--Comienza Footer-->
+    <footer id="pie">
+        <section class="LogoFooter">
+            <a href="#cabezera">
+            <img src="img/logo.png" alt="logo" class="img-footer">
+            </a>
+        </section>
+        <section class="redes">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/nico-villamarin">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </section>
+    </footer>
+    <!--Termina el footer-->
+
+    <script type="text/javascript" src="js/unidad8.js"></script>
+    <!--Archivo scrip de bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

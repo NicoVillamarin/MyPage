@@ -1,0 +1,531 @@
+header,
+section,
+footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #222831;
+}
+/* Comienza el nav */
+
+#cabezera {
+    height: 635px;
+    position: relative;
+}
+
+.fondo {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    filter: brightness(20%);
+}
+
+#logo {
+    position: relative;
+    float: left;
+    margin-top: 115px;
+    margin-left: 60px;
+}
+
+#logo img {
+    width: 200px;
+}
+
+.logotipo {
+    width: 170px;
+}
+
+button.hamb-boton{
+    background-color: #EEEEEE;
+    border: none;
+}
+button.hamb-boton:hover{
+    background-color: #FFD369;
+    transition: 1s;
+}
+nav{
+    position: relative;
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 160px;
+}
+nav li {
+    display: inline-block;
+    background-color: #EEEEEE;
+    border: 0 black solid;
+    border-radius: 5px 20px 5px 20px;
+    margin-right: 10px;
+}
+
+nav li a {
+    height: auto;
+    width: auto;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+nav li:hover {
+    background-color: #FFD369;
+    transition: 0.9s;
+}
+span{
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 36ch;
+    animation: typing 3s steps(35), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+.seg-tit{
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 20ch;
+    animation: typing 3s steps(20), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blink {
+    50% { 
+        border-color: transparent;
+    }
+}
+
+.tit-principal {
+    position: relative;
+    color: #EEEEEE;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #EEEEEE;
+    text-align: center;
+    clear: both;
+    margin-left: 0px;
+    padding-top: 60px;
+}
+
+
+/* Comienza el body */
+
+#bloqueUno {
+    height: 800px;
+    background: -webkit-linear-gradient(top, #393E46, #EEEEEE);
+    padding-top: 50px;
+    
+}
+
+#yo {
+    height: auto;
+    width: 350px;
+    float: left;
+    margin-left: 50px;
+    border-right: 2px #072227 solid;
+}
+
+#yo h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 42px;
+    padding-right: 50px;
+}
+
+.subtit {
+    color: #FFD369;
+    width: 90%;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#yo p {
+    font-weight: lighter;
+    font-size: 14px;
+    padding-right: 50px;
+}
+
+#fotos-nosotros {
+    height: 450px;
+    width: 450px;
+    background-image: url(../img/me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0 #303841 solid;
+    border-radius: 100px 0px 100px 0px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+
+
+/* Comienza el segundo bloque JS */
+
+#bloqueDos {
+    height: auto;
+    background-color: #EEEEEE;
+}
+
+.bloque-producto {
+    display: inline;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.producto {
+    display: inline-block;
+}
+#bloqueDos h2{
+    text-align: left;
+    margin: 0 0 30px 30px;
+}
+.Subt-bloqueDos {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#descript {
+    display: none;
+    font-size: 25px;
+}
+
+#img-BloqueDos {
+    width: 600px;
+    height: 500px;
+    filter: brightness(30%); 
+    border-radius: 20%;
+}
+.item-carrus{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    
+}
+.zoom-item:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px 20px #222831;
+}
+.ancho-img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    filter: brightness(40%);
+}
+.text-img{
+    font-size: 20px;
+    text-shadow: 1px 1px 10px;
+}
+
+/* Comienza el bloque de proyectos */
+#proyectos{
+    min-height: 400px;
+    padding-top: 95px;
+    padding-bottom: 80px;
+    background-color: #EEEEEE;
+}
+.bloque-proyectos{
+    margin-left: 0;
+    margin-right: 0;
+}
+img.logoCards{
+    height: 190px;
+}
+/* Comienza bloque 3 (Bloques formularios de bootstrap)*/
+
+#contacto {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EEEEEE;
+}
+.block-contact{
+    border: 0.5px #222831 solid;
+    border-radius: 10px;
+    box-shadow: 0px 9px 80px 4px #222831;
+}
+
+/* Comienza footer */
+
+#pie {
+    display: block;
+    height: 200px;
+    background: -webkit-linear-gradient(bottom, #222831, #EEEEEE);
+}
+
+.LogoFooter {
+    display: inline-block;
+    text-align: center;
+}
+
+.LogoFooter img {
+    width: 150px;
+}
+.LogoFooter img:hover{
+    box-shadow: inset 90px 1px #FFD369;
+    border-radius: 100%;
+    transition: 0.6s;
+}
+.redes {
+    display: inline;
+    text-align: center;
+}
+
+.redes li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.redes li a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.redes li a:hover {
+    color: #FFD369;
+    transition: 0.6s;
+}
+
+
+/* Comienza los @MEDIA */
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    header,
+    section,
+    footer {
+        width: 570px;
+    }
+    /* Comienza el footer */
+    #cabezera {
+        height: auto;
+        background-color: #393E46;
+        background-size: cover;
+    }
+    #logo {
+        float: none;
+        padding-top: 50px;
+        margin-top: 0px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .fondo {
+        width: 100%;
+    }
+    #logo img {
+        width: 150px;
+    }
+    nav {
+        float: left;
+        margin-top: 80px;
+        text-align: center;
+    }
+    nav ul li{
+        margin-top: 5px;
+    }
+    
+    .tit-principal span{
+        display: inline-block;
+        color: #EEEEEE;
+        font-size: 27px;
+        padding-top: 0px;
+        margin: 0px;
+    }
+    /* Comienza el bloque Uno */
+    #bloqueUno {
+        height: auto;
+        width: 570px;
+        background-color: #EEEEEE;
+        padding: 40px 0 0 0;
+    }
+    #yo {
+        height: auto;
+        width: 570px;
+        float: none;
+        margin-left: 0px;
+        border-right: none;
+    }
+    #yo h2 {
+        color: #222831;
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    #yo p {
+        font-size: 17px;
+        padding-right: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .subtit {
+        margin-left: 20px;
+    }
+    #fotos-nosotros {
+        height: 350px;
+        width: 350px;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+    /* Comienza el bloque dos */
+    #bloqueDos {
+        padding-top: 30px;
+    }
+    #bloqueDos h2{
+        text-align: center;
+    }
+    #img-BloqueDos {
+        max-width: 400px;
+        max-height: 300px;
+    }
+    .item-carrus{
+        max-width: 400px;
+        
+    }
+    .ancho-img{
+        max-width: 500px;
+    }
+    .text-img{
+        font-size: 20px;
+        text-shadow: 1px 1px 10px;
+    }
+    /*Comienza el bloque tres */
+    #bloqueTres {
+        height: auto;
+        width: 570px;
+    }
+    
+    /* Comienza footer */
+    #pie {
+        width: 570px;
+    }
+}
+
+@media all and (max-width: 599px) {
+    header,
+    section,
+    footer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Comienza el nav*/
+    #cabezera {
+        height: auto;
+        background-color: #393E46;
+        background-size: cover;
+    }
+    #logo {
+        float: none;
+        padding-top: 50px;
+        margin-top: 0px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .fondo {
+        width: 100%;
+    }
+    #logo img {
+        width: 150px;
+    }
+    nav {
+        float: left;
+        margin-top: 20px;
+        text-align: center;
+    }
+    nav ul li{
+        margin-top: 5px;
+    }
+    .tit-principal span {
+        color: #EEEEEE;
+        padding-top: 0px;
+        font-size: 16px;
+        margin: 0px;
+    }
+    /* Comienza el bloque uno*/
+    #bloqueUno {
+        height: auto;
+        margin-bottom: 0;
+    }
+    #yo {
+        height: auto;
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 60px;
+        border-right: 0px #072227 solid;
+    }
+    #yo h2 {
+        font-size: 35px;
+        padding-right: 0px;
+    }
+    #yo p {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .subtit {
+        margin-left: 20px;
+    }
+    #fotos-nosotros {
+        height: 200px;
+        width: auto;
+        background-size: cover;
+        float: none;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    /* Comienza bloque dos */
+    #bloqueDos {
+        padding-top: 30px;
+    }
+    #bloqueDos h2{
+        text-align: center;
+    }
+    #img-BloqueDos {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .item-carrus{
+        max-width: 300px;
+        
+    }
+    .ancho-img{
+        max-width: 300px;
+    }
+    .text-img{
+        font-size: 12px;
+    }
+    /* Comienza bloque tres */
+    /* Comienza footer */
+    #pie {
+        display: inline-block;
+        height: auto;
+    }
+    .LogoFooter img {
+        width: 150px;
+    }
+    .redes {
+        text-align: center;
+    }
+    .redes li {
+        display: block;
+        text-align: center;
+        margin: 0px auto 5px auto;
+    }
+    .redes ul {
+        padding: 0;
+    }
+}
